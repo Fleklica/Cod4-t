@@ -16,13 +16,11 @@
     <input type="text" name="Ime_clana"><br>
     Prezime clana:<br>
     <input type="text" name="Prezime_clana"><br>
-    oib:<br>
-    <input type="text" name="oib"><br>
     uloga:<br>
     <input type="text" name="uloga"><br>
     Ime_tima:<br>
     <input type="text" name="Ime_tima"><br>
-    <input type="submit" value="Unesi korisnik">
+    <input type="submit" value="Unesi clana">
 </form>
 </p>
 

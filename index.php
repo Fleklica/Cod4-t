@@ -46,7 +46,7 @@
     <div>
         <p>
             <?php
-            echo(session_id());
+            //echo(session_id());
             $_SESSION['info'];
 
             $sql = "SELECT * FROM Ekipe";
@@ -55,13 +55,11 @@
             if ($result->num_rows > 0) {
                 // output data of each row
                 echo('<table>');
-                echo('<tr><th>Ime_clana</th><th>Prezime_clana</th><th>oib</th><th>uloga</th><th>Ime_ekipe</th></tr>');
+                echo('<tr><th>Ime clana</th><th>Prezime clana</th><th>uloga</th><th>Ime ekipe</th></tr>');
                 while($row = $result->fetch_assoc()) {
                     echo('<tr>');
-                    //echo "id: " . $row["id"]. " - registracija: " . $row["registracija"]. " -> " . $row["ime"]. "<br>"
                     echo('<td>' . $row['Ime_clana'] . '</td>');
                     echo('<td>' . $row['Prezime_clana'] . '</td>');
-                    echo('<td>' . $row['oib'] . '</td>');
                     echo('<td>' . $row['uloga'] . '</td>');
                     echo('<td>' . $row['Ime_ekipe'] . '</td>');
                     echo('<td>' . '<a href="delete.php?id=' . $row['id'] . '"><img src="img/delete.gif"></a>' . '</td>');
@@ -74,6 +72,9 @@
             }
             $conn->close();
             ?>
+        </p>
+        <p>
+            <a href="unos.php">Unos novog clana</a>
         </p>
     </div>
 

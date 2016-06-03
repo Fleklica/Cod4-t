@@ -13,7 +13,7 @@
 
 <p>
     <?php
-    $sql = "DELETE FROM Ekipe WHERE id=" . $_GET['id'];
+    $sql = "DELETE * FROM Ekipe WHERE id=" . $_GET['id'];
     $result = $conn->query($sql);
 
     echo('Clan obrisan!<br>');

@@ -3,21 +3,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Automobili</title>
+    <title>Cod4-tournament</title>
 </head>
 
 <body>
 <h1>
-    Automobili
+    Cod4-tournament
 </h1>
 
 <p>
     <?php
-    $sql = "INSERT INTO automobili (registracija, ime) VALUES ('" . $_POST['registracija'] . "', '" . $_POST['ime'] . "')";
+    $sql = "INSERT INTO Ekipe VALUES ('" . $_POST['Ime_clana'] . "', '" . $_POST['Prezime_clana'] . "', '" . $_POST['oib'] . "', '" . $_POST['uloga'] . "', '" . $_POST['Ime_ekipe'] . "')";
     $result = $conn->query($sql);
 
-    echo('Automobil je unesen!<br>');
-    echo('<a href="index.php">Povratak na prikaz automobila</a>');
+    echo('Clan je unesen!<br>');
+    echo('<a href="index.php">Povratak na prikaz clanova</a>');
     ?>
 </p>
 </body>
