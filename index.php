@@ -40,7 +40,7 @@
 
     <div class="starter-template">
         <h1>Cod4-tournament</h1>
-        <p class="lead">cod4-tournament</p>
+        <p class="lead"></p>
     </div>
 
     <div>

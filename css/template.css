@@ -1,25 +1,33 @@
 body {
     padding-top: 50px;
+    background-image: url("http://www.greatamericanburgerfest.com/images/Call-of-Duty-4-Modern-Warfare-pic.png");
+    background-size: 1600px;
+
 }
 .starter-template {
     padding: 40px 15px;
     text-align: center;
 }
 .navbar {
-    background-color: #3a6b9c;
+    background-color: green;
 }
 .navbar-inverse {
-    background-color: #3a6b9c;
+    background-color: green;
 }
 .navbar-fixed-top {
-    background-color: #3a6b9c;
+    background-color: green;
 }
 
 h1 {
     font-family: "Tahoma";
+    color: black;
 }
 
 p
 {
-    color: red;
+    color:black;
+}
+table
+{
+    color:black;
 }

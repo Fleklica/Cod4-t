@@ -1,5 +1,6 @@
 <?php require('check.php'); ?>
 <?php require('db.php'); ?>
+<link href="css/template.css" rel="stylesheet">
 <!DOCTYPE html>
 <html>
 <head>

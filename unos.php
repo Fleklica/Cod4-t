@@ -1,4 +1,5 @@
 <?php require('db.php'); ?>
+<link href="css/template.css" rel="stylesheet">
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +8,7 @@
 
 <body>
 <h1>
-    Cod4-tournament
+    Unos novog clana
 </h1>
 
 <p>
@@ -22,10 +23,9 @@
     <input type="text" name="Ime_tima"><br>
     <input type="submit" value="Unesi clana">
 </form>
+<a href="index.php">Povratak na prikaz clanova</a>
 </p>
 
-<p>
-    <a href="unos.php">Unos novog clana</a>
-</p>
+
 </body>
 </html>
