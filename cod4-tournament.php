@@ -46,9 +46,9 @@
 
     <p>
         <iframe width="420" height="315"
-                src="https://www.youtube.com/watch?v=wgbvueR0ZNM?autoplay=1">
+                src="https://www.youtube.com/embed/?v=wgbvueR0ZNM?autoplay=1">
         </iframe>
-       
+
      
     </p>
 
