@@ -27,7 +27,7 @@
     Korisnicko ime:<br>
     <input type="text" name="username"><br>
     Lozinka:<br>
-    <input type="text" name="password"><br>
+    <input type="password" name="password"><br>
     <input type="submit" value="Prijava">
 </form>
 </p>

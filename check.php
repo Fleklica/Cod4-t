@@ -1,4 +1,3 @@
-<link href="css/template.css" rel="stylesheet">
 
 <?php
 session_start();
