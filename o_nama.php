@@ -40,46 +40,21 @@
 <div class="container">
 
     <div class="starter-template">
-        <h1>Cod4-tournament</h1>
+        <h1>Ova stranica je namjenjena za prikaz ekipa cod4 igraca</h1>
         <p class="lead"></p>
     </div>
 
-    <div>
-        <p>
-            <?php
-            //echo(session_id());
-            $_SESSION['info'];
+    <p>
+        <?php
+        echo("Vise o ovoj igrici mozete saznati na");
 
-            $sql = "SELECT * FROM Ekipe";
-            $result = $conn->query($sql);
+        ?>
+        <a href="https://www.callofduty.com/">stranici.</a>
+    </p>
 
-            if ($result->num_rows > 0) {
-                // output data of each row
-                echo('<table>');
-                echo('<tr><th>Ime clana</th><th>Prezime clana</th><th>uloga</th><th>Ime ekipe</th></tr>');
-                while($row = $result->fetch_assoc()) {
-                    echo('<tr>');
-                    echo('<td>' . $row['Ime_clana'] . '</td>');
-                    echo('<td>' . $row['Prezime_clana'] . '</td>');
-                    echo('<td>' . $row['uloga'] . '</td>');
-                    echo('<td>' . $row['Ime_ekipe'] . '</td>');
-                    echo('<td>' . '<a href="delete.php?id=' . $row['id'] . '"><img src="img/delete.gif"></a>' . '</td>');
-                    echo('<td>' . '<a href="edit.php?id=' . $row['id'] . '"><img src="img/edit.gif"></a>' . '</td>');
-                    echo('</tr>');
-                }
-                echo('</table>');
-            } else {
-                echo "Nema clanova";
-            }
-            $conn->close();
-            ?>
-        </p>
-        <p>
-            <a href="unos.php">Unos novog clana</a>
-        </p>
-    </div>
 
-</div><!-- /.container -->
+
+
 
 
 </body>
