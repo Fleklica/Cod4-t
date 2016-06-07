@@ -40,17 +40,15 @@
 <div class="container">
 
     <div class="starter-template">
-        <h1>Ova stranica je namjenjena za prikaz ekipa cod4 igraca</h1>
+        <h1>Cod4</h1>
         <p class="lead"></p>
     </div>
 
     <p>
-        <?php
-        echo("Vise o ovoj igrici mozete saznati na");
-
-
-        ?>
-        <a href="https://www.callofduty.com/">stranici.</a>
+        <iframe width="420" height="315"
+                src="https://www.youtube.com/watch?v=wgbvueR0ZNM?autoplay=1">
+        </iframe>
+       
      
     </p>
 
