@@ -1,4 +1,3 @@
-<?php require('check.php'); ?>
 <?php require('db.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -6,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Cod4-tournament</title>
+    <title>Cod4-t</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -26,13 +25,12 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="cod4-tournament.php">Cod4-t</a>
+            <a class="navbar-brand" href="index.php">Cod4-t</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="index.php">Početna</a></li>
                 <li class="active"><a href="o_nama.php">O stranici</a></li>
-                <li class="active"><a href="registracija.php">Registracija</a></li>
                 <li class="active"><a href="login.php">Odjava</a></li>
             </ul>
         </div><!--/.nav-collapse -->
@@ -42,23 +40,22 @@
 <div class="container">
 
     <div class="starter-template">
-        <h1>Ova stranica je namjenjena za prikaz ekipa cod4 igraca</h1>
-        <p class="lead"></p>
+        <h1>Registracija</h1>
     </div>
-
-    <p>
-        <?php
-        echo("Vise o ovoj igrici mozete saznati na");
-
-
-        ?>
-        <a href="https://www.callofduty.com/">stranici.</a>
-     
-    </p>
-
-
-
-
+</div>
+<p>
+<form action="registracija_insert.php" method="post">
+    Korisnicko ime:<br>
+    <input type="text" name="username"><br>
+    Lozinka:<br>
+    <input type="password" name="password"><br>
+    Ime:<br>
+    <input type="text" name="name"><br>
+    Prezime:<br>
+    <input type="text" name="surname"><br>
+    <input type="submit" value="Registriraj se!">
+</form>
+</p>
 
 
 </body>

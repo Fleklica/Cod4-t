@@ -32,6 +32,8 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a href="index.php">Početna</a></li>
                 <li class="active"><a href="o_nama.php">O stranici</a></li>
+                <li class="active"><a href="registracija.php">Registracija</a></li>
+                <li class="active"><a href="login.php">Odjava</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
