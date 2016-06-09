@@ -14,7 +14,7 @@
 <p>
     <?php
     $sql = "UPDATE Ekipe SET Ime_clana='" . $_POST['Ime_clana'] . "', Prezime_clana='" . $_POST['Prezime_clana'] . "', uloga='" . $_POST['uloga'] . "', Ime_ekipe='" . $_POST['Ime_ekipe'] . "' WHERE id = " . $_POST['id'];
-    $result = $conn->query($sql);
+    $_POST = $conn->query($sql);
 
     header('Location: index.php');
     ?>

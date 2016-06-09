@@ -20,7 +20,7 @@
     uloga:<br>
     <input type="text" name="uloga"><br>
     Ime_tima:<br>
-    <input type="text" name="Ime_tima"><br>
+    <input type="text" name="Ime_ekipe"><br>
     <input type="submit" value="Unesi clana">
 </form>
 <a href="index.php">Povratak na prikaz clanova</a>

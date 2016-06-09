@@ -28,8 +28,10 @@ p
     color:black;
     font-size: large;
 }
-table
+table, th, td, tr
 {
     color:black;
     font-size: large;
+    border: 2px solid black;
+
 }
